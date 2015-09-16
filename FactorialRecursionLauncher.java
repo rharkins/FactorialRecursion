@@ -4,10 +4,10 @@ public class FactorialRecursionLauncher {
 
 	public static void main(String[] args) 
 	{
-		
+		// Create a FactorialRecursion object
 		FactorialRecursion myFactorialRecursion = new FactorialRecursion(); 
-		System.out.println(myFactorialRecursion.CalculateFactorial(3));
-
+		// Call the CalculateFactorial method using the new FactorialRecursion object
+		System.out.println(myFactorialRecursion.CalculateFactorial(30));
 	}
-	
+
 }
